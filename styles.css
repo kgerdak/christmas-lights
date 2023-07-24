@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box; 
+ }
+ body {
+    background: linear-gradient(white, rgb(165, 165, 226))
+ }
+.cord {
+    float: left;
+    height: 100px;
+    width: 10px;
+    border: 1px solid darkgreen;
+    background: radial-gradient(ellipse at center, green, darkgreen);
+    margin-left: 20px;
+}
+.connector {
+    height: 5px;
+    width: 15px;
+    border: 1px solid darkgreen;
+    background: radial-gradient(ellipse at center, green, darkgreen);
+    float: left;
+    margin-top: 50px;
+}
+.bulb {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    float: left;
+    margin-top: 28px;
+    border-radius: 50%;
+}
+.two, .three, .four, .five, .six, .seven {
+    clear: left;
+}
+.bulbPink {
+    background: radial-gradient(ellipse at center, lightpink, red);
+}
+.bulbOrange {
+    background: radial-gradient(ellipse at center, #fffbb6, rgb(215, 215, 11));
+}
+
